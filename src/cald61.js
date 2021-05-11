@@ -282,7 +282,7 @@ $(inputf).change(function(e){//가능성 보임
     var fileName = e.target.files[0].name;
     // var inputname = '<img src = "' + fileName + '" alt="이미지 이름으로 가져오기" width="500" height="600">';
     var inputname = fileName;
-    var inputimg = '<img src = "storage/emulated/0/Gallery/2영농/' + inputname + '" alt="이미지 이름으로 가져오기" width="500" height="600">'+ '<br>';
+    var inputimg = '<img src = "Gallery/2영농/' + inputname + '" alt="이미지 이름으로 가져오기" width="500" height="600">'+ '<br>';
    $(document).ready(function() {
          
         document.getElementById("demo").innerHTML = inputname;//ㅎㅎㅎ 잘되네
